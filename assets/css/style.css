@@ -1,0 +1,732 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.b {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.c {
+    height: 250px;
+    width: 250px;
+    border: 1px solid wheat;
+    row-gap: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 80px auto;
+    box-shadow: 10px 0 10px black;
+}
+h1 {
+    color: green;
+}
+.slide {
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.sp1 {
+    font-size: 40px;
+    color: rgb(2, 0, 0);
+    position: absolute;
+    font-weight: 500;
+    top: 6vh;
+    left: 20vw;
+}
+.sp2 {
+    font-size: 40px;
+    color: rgb(2, 0, 0);
+    position: absolute;
+    font-weight: 500;
+    top: 37vh;
+    left: 60vw;
+}
+.main_page {
+    height: 65vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    display: flex;
+    /* margin-top: 2vh; */
+    gap: 5vw ;
+    padding-left: 7.5vw;
+    padding-top: 8vh;
+}
+.cont1 {
+    height: 50vh;
+    width: 40vw;
+    /* background-color: green; */
+    background-color: rgb(76, 207, 87);
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+}
+.cont1:hover {
+    scale: 1.1;
+    background-color: rgb(41, 172, 52);
+    transition: 0.7s;
+}
+.cont2 {
+    height: 50vh;
+    width: 40vw;
+    background-color: rgb(76, 207, 87);
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+    /* background-color: red; */
+}
+.cont2:hover {
+    scale: 1.1;
+    background-color: rgb(41, 172, 52);
+    transition: 0.7s;
+}
+p {
+    font-size: 19px;
+    margin-top: 10px;
+    margin-left: 1vw;
+    font-family: "Playfair Display", serif;  
+}
+
+.heading {
+    padding-left: 15vw;
+    font-size: 22px;
+}
+.main_adv {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 25vh;
+    left: 15vw;
+
+}
+.vid {
+    height: 100vh;
+    width: 100vw;
+    background-color: wheat;
+}
+.vid_cont {
+    position: absolute;
+    left: 8vw;
+    margin-top: 15vh;
+    /* top: 0; */
+}
+
+.vid_cont2 {
+    position: absolute;
+    margin-top: 15vh;
+    left: 50vw;
+}
+.foundationdv {
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    /* background-color: black; */
+}
+.foundation {
+    height: 80vh;
+    width: 85vw;
+    background-color: rgb(76, 207, 87);
+    border-radius: 10px;
+    margin-left: 7.5vw;
+    margin-top: 5vh;
+    box-shadow: 2px 2px 10px black;
+    /* margin-left: 10vw ; */
+    /* background-color: whitesmoke; */
+    /* background-color: gray; */
+}
+.foundation:hover {
+    scale: 1.1;
+    background-color: rgb(41, 172, 52);
+    transition: 0.7s;
+}
+.foundhd {
+    font-size: 50px;
+    color: whitesmoke;
+    margin-left: 16vw;
+}
+.foundhd2 {
+    font-size: 50px;
+    color: black;
+    margin-left: 24vw;
+}
+.introvid {
+    margin-left: 20vw;
+    margin-top: 5vh;
+}
+.cntctbox {
+    width: 100vw;
+    height: 100vh;
+}
+.vip {
+
+}
+.map_cnt {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+}
+.map {
+    margin-top: 17vh;
+    margin-left: 5vw;
+    /* filter: invert(100%); */
+}
+.cnt {
+    height: 60vh;
+    width: 30vw;
+    margin-left: 3vw;
+    margin-top: 17vh;
+    /* background-color: white; */
+}
+.cntheading {
+    font-size: 35px;
+    font-weight: bold;
+    /* font-family: "Roboto Mono", monospace; */
+    font-family: "Merriweather", serif;
+}
+.crc {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: green;
+    padding-left: 7px;
+}
+i {
+    font-size: 25px;
+    color: white;
+}
+.addtxt {
+    color: rgb(37, 31, 31);
+}
+.addtxt2 {
+    padding-top: 5px;
+}
+.adder {
+    height: 9vh;
+    width: 30vw;
+    margin-top: 3vh;
+    padding-top: 5px;
+    display: flex;
+    gap: 15px;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    /* background-color: black; */
+    /* color: white; */
+    text-decoration: none;
+}
+.addconticn {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+/* .contact_mainpg {
+    height: 100vh;
+    width: 100vw;
+} */
+.frmc {
+    height: 70vh;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    /* background-color: wheat; */
+    padding-bottom: 5vh;
+    /* border: 1px solid green; */
+    
+}
+.frmc:hover {
+    box-shadow: 0px 0px 4px black;
+    transition: 500ms;
+    border-radius: 20px;
+    
+}
+.ababab {
+    margin-top: 5vh;
+}
+.bn {
+    position: absolute;
+    right: 10vw;
+}
+.snd {
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 1vw;
+}
+.snd2 {
+    font-size: 45px;
+    font-weight: 500;
+    color: green;
+}
+.donateadcntct {
+    height: 20vh;
+    width: 100vw;
+    padding-top: 7vh;
+    padding-left: 5vw;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 30px;
+    background-color: rgb(39, 85, 39);
+}
+.cc {
+    margin-left: 32vw;
+}
+mmmm {
+
+}
+.intro {
+    width: 100vw;
+    height: 100vh;
+    background-color: wheat;
+    display: flex;
+    gap: 10vw;
+}
+.cont_about1 {
+    height: 70vh;
+    width: 40vw;
+    /* background-color: green; */
+    margin-left: 5vw;
+    color: black;
+    margin-top: 10vh;
+}
+.cont_about1:hover {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    transition: 500ms;
+    box-shadow: 0px 0px 4px black;
+}
+.cont_about2 {
+    height: 70vh;
+    margin-top: 10vh;
+    width: 40vw;
+    overflow: hidden;
+}
+.ab1 {
+    font-size: 30px;
+    padding-left: 8vw;
+}
+.ab2 {
+    font-size: 30px;
+    color: green;
+}
+.joinus {
+    height: 30vh;
+    width: 100vw;
+    background-color: rgb(38, 83, 38);
+}
+.joinus > p {
+    font-size: 20px;
+    color: white;
+    margin-left: 9vw;
+    margin-top: 17vh;
+}
+.volunteersays {
+    height: 100vh;
+    width: 100vw;
+    background-color: wheat;
+}
+.volunhd {
+    font-size: 40px;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 35vw;
+}
+.highlighthd {
+    color: green;
+}
+.vsay {
+    height: 70vh;
+    width: 90vw;
+    /* background-color: red; */
+    margin-top: 20vh;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+   
+}
+.vs1 {
+    /* background-color: blue; */
+    width: 100vw;
+    height: 33vh;
+    display: flex;
+    gap: 10vw;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+.vs2 {
+    /* background-color: violet; */
+    width: 100vw;
+    height: 33vh;
+    display: flex;
+    gap: 10vw;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+.d1 {
+    height: 33vh;
+    width: 40vw;
+    /* background-color: aqua; */
+    display: flex;
+}
+.d2 {
+    height: 33vh;
+    width: 40vw;
+    display: flex;
+    /* background-color: blueviolet; */
+}
+.pfp {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: wheat;
+    
+}
+.pfpcs {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* object-fit: cover; */
+    object-fit:contain;
+    border: 1px solid black;
+}
+.cmnts {
+    height: 28vh;
+    width: 28vw;
+    font-family: "PT Serif", serif;
+    /* font-family: "Noto Sans", sans-serif; */
+    /* font-family: "Playfair Display", serif; */
+    /* background-color: black; */
+    font-size: 16px;
+    padding-left: 30px;
+}
+.hgl {
+    font-size: 18px;
+    color: green;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 24vh;
+    margin-left: 14vw;
+}
+.role {
+    font-size: 17px;
+    color: gray;
+}
+
+/* UPDATES PAGE  */
+
+.updatemainpg {
+    height: 100vh;
+    width: 100vw;
+    background-color: cornsilk;
+}
+.updcnt {
+    height: 83vh;
+    width: 100vw;
+    background-color: cornsilk;
+    display: flex;
+    padding-left: 10vw;
+    padding-top: 10vh;
+    gap: 7vw;
+}
+
+.bc1 {
+    height: 33vh;
+    overflow: hidden;
+}
+/* Media Query */
+/* Media Query */
+/* Media Query */
+@media screen and (max-width: 480px) {
+    /* Contact page  */
+    .map_cnt {
+        height: 100vh;
+        width: 100vw;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .map {
+        margin-top: 3vh;
+        margin-left: 10vw;
+        height: 38vh;
+        width: 80vw;
+        overflow: hidden;
+        object-fit: fill;
+        /* object-fit: cover; */
+        /* filter: invert(100%); */
+    }
+    .cnt {
+        height: 53vh;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-top: 1vh;
+        /* background-color: white; */
+    }
+    .cnt:hover {
+        border-radius: 10px;
+        transition: 500ms;
+        box-shadow: 0px 0px 4px black;
+    }
+    .cntheading {
+        font-size: 30px;
+        font-weight: bold;
+        /* font-family: "Roboto Mono", monospace; */
+        font-family: "Merriweather", serif;
+    }
+    .crc {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: green;
+        padding-left: 13px;
+        padding-top: 7px;
+    }
+    i {
+        font-size: 15px;
+        color: white;
+    }
+    .addtxt {
+        color: rgb(37, 31, 31);
+    }
+    .addtxt2 {
+        padding-top: 5px;
+    }
+    .adder {
+        height: 11vh;
+        width: 80vw;
+        margin-top: 3vh;
+        padding-top: 5px;
+        display: flex;
+        gap: 15px;
+        /* margin-top: auto;
+        margin-bottom: auto; */
+        /* background-color: black; */
+        /* color: white; */
+        text-decoration: none;
+    }
+    .addconticn {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .snd {
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 1vw;
+    }
+    .snd2 {
+        font-size: 25px;
+        font-weight: 500;
+        color: green;
+    }
+    .donateadcntct {
+        height: 20vh;
+        width: 100vw;
+        padding-top: 0vh;
+        padding-left: 5vw;
+        font-family: "Merriweather", serif;
+        font-weight: 300;
+        font-style: normal;
+        color: aliceblue;
+        font-size: 20px;
+        background-color: rgb(39, 85, 39);
+    }
+    .cc {
+        margin-left: 52vw;
+        margin-top: 0vh;
+    }
+    /* Update Page  */
+    .updatemainpg {
+        height: 250vh;
+        width: 100vw;
+        /* background-color: cornsilk; */
+    }
+    .updcnt {
+        height: 250vh;
+        width: 100vw;
+        background-color: cornsilk;
+        display: flex;
+        flex-direction: column;
+        padding-left: 5vw;
+        padding-top: 5vh;
+        gap: 7vw;
+    }
+    
+    .bc1 {
+        height: 33vh;
+        overflow: hidden;
+    }
+
+    /* update me kaam krna baaki hai  */
+
+    /* About Us  */
+
+
+    .intro {
+        width: 100vw;
+        height: 150vh;
+        background-color: wheat;
+        display: flex;
+        flex-direction: column;
+        gap: 0vw;
+    }
+    .cont_about1 {
+        height: 85vh;
+        width: 80vw;
+        /* background-color: green; */
+        margin-left: 10vw;
+        color: black;
+        margin-top: 5vh;
+    }
+    .about_info {
+        font-size: 15px;
+    }
+    .cont_about1:hover {
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        transition: 500ms;
+        box-shadow: 0px 0px 4px black;
+    }
+    .cont_about2 {
+        height: 40vh;
+        margin-left: 10vw;
+        width: 80vw;
+        overflow: hidden;
+    }
+    .team-pic {
+        height: 40vh;
+        width: 80vw;
+        overflow: hidden;
+    }
+    .ab1 {
+        font-size: 20px;
+        padding-left: 8vw;
+        color: black;
+        font-weight: bold;
+    }
+    .ab2 {
+        font-size: 20px;
+        color: green;
+        font-weight: bold;
+    }
+    .joinus {
+        height: 30vh;
+        width: 100vw;
+        background-color: rgb(38, 83, 38);
+    }
+    .joinus > p {
+        font-size: 15px;
+        color: white;
+        margin-left: 9vw;
+        margin-top: 12vh;
+    }
+    .volunteersays {
+        height: 150vh;
+        width: 100vw;
+        background-color: wheat;
+    }
+    .volunhd {
+        font-size: 25px;
+        position: absolute;
+        margin-top: 5vh;
+        margin-left: 16vw;
+    }
+    .highlighthd {
+        color: green;
+    }
+    .vsay {
+        height: 150vh;
+        width: 100vw;
+        background-color: red;
+        margin-top: 20vh;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15vh;
+       
+    }
+    .vs1 {
+        /* background-color: blue; */
+        width: 100vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        box-sizing: border-box;
+        overflow-y: hidden;
+    }
+    .vs2 {
+        /* background-color: violet; */
+        width: 100vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        box-sizing: border-box;
+        overflow-y: hidden;
+    }
+    .d1 {
+        height: 45vh;
+        width: 90vw;
+        background-color: aqua;
+        display: flex;
+        margin-left: 5vw
+    }
+    .d2 {
+        height: 45vh;
+        width: 90vw;
+        display: flex;
+        margin-left: 5vw;
+        background-color: blueviolet;
+    }
+    .pfp {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background-color: wheat;
+        
+    }
+    .pfpcs {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+        /* object-fit: cover; */
+        object-fit:contain;
+        border: 1px solid black;
+    }
+    .cmnts {
+        height: 28vh;
+        width: 60vw;
+        font-family: "PT Serif", serif;
+        /* font-family: "Noto Sans", sans-serif; */
+        /* font-family: "Playfair Display", serif; */
+        /* background-color: black; */
+        font-size: 10px;
+        padding-left: 30px;
+    }
+    .hgl {
+        font-size: 12px;
+        color: green;
+        font-weight: 600;
+        position: absolute;
+        margin-top: 24vh;
+        margin-left: 14vw;
+    }
+    .role {
+        font-size: 11px;
+        color: gray;
+    }
+    
+}   
+
+
+
+
