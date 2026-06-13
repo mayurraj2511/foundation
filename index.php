@@ -36,7 +36,19 @@ require_once 'inc/nav.php';
         </button>
         
         </div>
-
+        <div class="main-page2">
+            <div class="heading_box">
+              <h4 class="heading_of_home_content">Welcome to <span class="span_of_home_content">Go Green</span></h4>
+              <span class="second_span">
+              A devoted Green Yatra for a Greener and Sustainable World
+              </span>
+            </div>
+            <div class="home_contents">
+              <h6 class="headingofhome">Green Yatra is a leading environmental NGO in India working towards achieving the Sustainable Development Goals (SDGs) through tree plantation, urban biodiversity conservation, water bodies restoration, sustainable solutions, and environmental research and awareness. We are a rare blend of resources equipped with traditional wisdom and modern, innovative technologies to help corporate achieving their NET Zero Goal.</h6>
+              <span class="homespantitlehai">We are registered with 12 A, 80G, FCRA and UNEP.</span>
+              <button class="readmore">Read More</button>
+            </div>
+        </div>
         <div class="main_page">
             <div class="cont1">
                 <span class="heading" >OUR VISION <hr></span>
@@ -58,13 +70,18 @@ require_once 'inc/nav.php';
           
         <div class="vid">
           <p class="foundhd2">Know why we need to do this.</p>
-          <div class="vid_cont">
-            <iframe width="540" height="315" src="https://www.youtube.com/embed/_nDUxCVcZpo?si=LoWnumWUiwzhMT5x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div> 
-         <div class="vid_cont2">
-            <iframe width="540" height="315" src="https://www.youtube.com/embed/zEYpkollcJk?si=kC48deEvd3CVOA4O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-         </div>
+            <div class="vid_cont">
+              <iframe width="540" height="315" src="https://www.youtube.com/embed/_nDUxCVcZpo?si=LoWnumWUiwzhMT5x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div> 
+          <div class="vid_cont2">
+              <iframe width="540" height="315" src="https://www.youtube.com/embed/zEYpkollcJk?si=kC48deEvd3CVOA4O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
         </div>
+        <div class="donateadcntct">
+        Join your hand with us for a Clean and Green India. <button type="button" class="btn btn-warning cc"> 
+            Make a Donation
+        </button>
+  </div>   
          
         <!-- <video controls autoplay muted loop width="500">
          src="https://www.youtube.com/watch?v=_nDUxCVcZpo"
@@ -91,10 +108,6 @@ require_once 'inc/nav.php';
     <span class="visually-hidden">Next</span>
   </button>
 </div> -->
-
-
-
-
 
 
 <?php

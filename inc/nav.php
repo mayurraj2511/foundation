@@ -39,6 +39,10 @@
           <a class="nav-link disabled" aria-disabled="false">Enable</a>
         </li> -->
       </ul>
+      <a class="log-icon" href="signup.php">
+        <i class="bi bi-person login-icn"></i>
+      </a>
+      
       <button type="button" class="btn btn-success"> 
             Make a Donation
         </button>

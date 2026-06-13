@@ -30,6 +30,11 @@ require_once 'inc/nav.php';
         </div>
         </div>
     </div>
+    <div class="donateadcntct">
+        Join your hand with us for a Clean and Green India. <button type="button" class="btn btn-warning cc"> 
+            Make a Donation
+        </button>
+</div>   
 </div>
 
 

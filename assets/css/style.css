@@ -4,6 +4,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    font-family: "Merriweather", serif;
 }
 .b {
     height: 250px;
@@ -291,14 +292,16 @@ mmmm {
     margin-left: 5vw;
     color: black;
     margin-top: 10vh;
+    background-color: whitesmoke;
+    border-radius: 20px;
 }
-.cont_about1:hover {
+/* .cont_about1:hover {
     background-color: whitesmoke;
     border-radius: 20px;
     color: black;
     transition: 500ms;
     box-shadow: 0px 0px 4px black;
-}
+} */
 .cont_about2 {
     height: 70vh;
     margin-top: 10vh;
@@ -439,6 +442,130 @@ mmmm {
     height: 33vh;
     overflow: hidden;
 }
+
+/* Signup page  */
+
+    .signup_main {
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        background-image: url('../images/signup-bg.jpg');
+        background-size: cover;
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-repeat: repeat; */
+        /* object-fit: fill; */
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_form_signup {
+        height: 60vh;
+        width: 20vw;
+        background-color: rgba(255, 255, 255, 0.3 );
+        backdrop-filter: blur(8px);
+        border: 0.5px solid rgb(248,248,255);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        /* justify-content: space-between;
+        align-items: center; */
+    }
+    
+    .input_signup {
+        width: 100%;
+        /* justify-self: center; */
+    }
+    .heading_log_sign {
+        font-size: 16px;
+        overflow: hidden;
+        text-decoration: underline;
+    }
+    /* navbar button login  */
+
+    .log-icon {
+        text-decoration: none;
+        border: none;
+        /* color: black; */
+    }
+    .login-icn {
+        color: black;
+        background: transparent;
+    }
+
+    /* navbar button login  */
+
+/* Signup page ends  */
+
+/* Main page 2 */
+
+    .main-page2 {
+        height: 60vh;
+        width: 80vw;
+        /* background-color: black; */
+        justify-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .heading_box {
+        height: 20vh;
+        width: 80vw;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid black;
+    }
+    .heading_of_home_content {
+        font-size: 30px;
+        overflow: hidden;
+    }
+    .span_of_home_content {
+        color: green;
+    }
+    .second_span {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .home_contents {
+        height: 30vh;
+        width: 80vw;
+        /* background-color: beige; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .headingofhome {
+        font-size: 15px;
+        font-weight:  500;
+        overflow: hidden;
+        text-align: center;
+    }
+    .homespantitlehai {
+        color: gray;
+        font-size: 20px;
+    }
+    .readmore {
+        height: fit-content;
+        width: fit-content;
+        padding: 10px;
+        border: none;
+        color: white;
+        background-color: rgb(26, 146, 26);
+        border-radius: 5px;
+    }
+
+
+/* main page 2  */
+
 /* Media Query */
 /* Media Query */
 /* Media Query */

@@ -52,7 +52,11 @@ require_once 'inc/nav.php';
              <button type="button" class="btn btn-outline-success bn">Send Message</button>
         </div>             
     </div>
-    
+    <div class="donateadcntct">
+        Join your hand with us for a Clean and Green India. <button type="button" class="btn btn-warning cc"> 
+            Make a Donation
+        </button>
+</div>   
     
 </div>
 
